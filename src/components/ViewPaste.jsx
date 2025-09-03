@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Copy } from "lucide-react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams, useSearchParams } from "react-router-dom";
-import { addToPaste, updateToPaste } from "../Redux/PasteSlice";
+import { addToPaste, updateToPaste } from "../redux/PasteSlice";
 
 const ViewPaste = () => {
   const { id } = useParams();
