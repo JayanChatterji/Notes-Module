@@ -3,7 +3,7 @@ import { Copy, PlusCircle } from "lucide-react";
 import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { useSearchParams } from "react-router-dom";
-import { addToPaste, updateToPaste } from "../Redux/PasteSlice";
+import { addToPaste, updateToPaste } from "../redux/PasteSlice";
 
 const Home = () => {
   const [title, setTitle] = useState("");
