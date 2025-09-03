@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { removeFromPaste } from "../Redux/PasteSlice";
+import { removeFromPaste } from "../redux/PasteSlice";
 import toast from "react-hot-toast";
 import { Calendar, Copy, Eye, PencilLine, Share, Trash2 } from "lucide-react";
 import { FormatDate } from "../data/formatDate";
